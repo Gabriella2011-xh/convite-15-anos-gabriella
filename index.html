@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15 Anos - Gabriella Rocha Carvalho 🌿✨</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a472a 0%, #2d5a3d 50%, #0f3620 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 600px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px 30px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            color: #2d5a3d;
+        }
+
+        .header {
+            margin-bottom: 30px;
+        }
+
+        .emoji-title {
+            font-size: 60px;
+            margin-bottom: 15px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #1a472a;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #5a7d6a;
+            font-style: italic;
+        }
+
+        .divider {
+            width: 80px;
+            height: 3px;
+            background: linear-gradient(90deg, #1a472a, #7cb342, #1a472a);
+            margin: 25px auto;
+            border-radius: 2px;
+        }
+
+        .info-section {
+            margin: 30px 0;
+            background: rgba(124, 179, 66, 0.1);
+            padding: 20px;
+            border-radius: 15px;
+            border-left: 4px solid #7cb342;
+        }
+
+        .info-item {
+            margin: 15px 0;
+            font-size: 16px;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #1a472a;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .info-value {
+            font-size: 18px;
+            color: #2d5a3d;
+        }
+
+        .countdown {
+            background: linear-gradient(135deg, #7cb342, #9ccc65);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 30px 0;
+            color: white;
+        }
+
+        .countdown-title {
+            font-weight: 600;
+            margin-bottom: 15px;
+            font-size: 18px;
+        }
+
+        .countdown-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+
+        .countdown-item {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .countdown-number {
+            font-size: 24px;
+            font-weight: 700;
+            display: block;
+        }
+
+        .countdown-label {
+            font-size: 12px;
+            margin-top: 5px;
+            opacity: 0.9;
+        }
+
+        .location-section {
+            margin: 30px 0;
+        }
+
+        .location-button {
+            background: linear-gradient(135deg, #1a472a, #2d5a3d);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin: 10px 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .location-button:hover {
+            background: linear-gradient(135deg, #0f3620, #1a472a);
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .form-section {
+            background: rgba(124, 179, 66, 0.15);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 30px 0;
+        }
+
+        .form-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a472a;
+            margin-bottom: 15px;
+        }
+
+        .whatsapp-button {
+            background: #25d366;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .whatsapp-button:hover {
+            background: #1ead52;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(37, 211, 102, 0.3);
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #5a7d6a;
+            font-style: italic;
+        }
+
+        .emoji {
+            font-size: 20px;
+            margin: 0 5px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            .countdown-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .countdown-number {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="emoji-title">🌿✨👑</div>
+            <h1>15 Anos</h1>
+            <p class="subtitle">Gabriella Rocha Carvalho</p>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="info-section">
+            <div class="info-item">
+                <span class="emoji">📅</span>
+                <span class="info-label">Data</span>
+                <span class="info-value">10 de outubro de 2026</span>
+            </div>
+
+            <div class="info-item">
+                <span class="emoji">⏰</span>
+                <span class="info-label">Horário</span>
+                <span class="info-value">16h30</span>
+            </div>
+
+            <div class="info-item">
+                <span class="emoji">📍</span>
+                <span class="info-label">Local</span>
+                <span class="info-value">Cantinho do Vovô</span>
+                <span class="info-value" style="font-size: 14px; display: block; margin-top: 5px;">
+                    Rua Dep. Luiz Eduardo Magalhães, 35<br>
+                    Jardim Limoeiro, Camaçari-BA
+                </span>
+            </div>
+        </div>
+
+        <div class="countdown">
+            <div class="countdown-title">⏳ Contagem Regressiva</div>
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <span class="countdown-number" id="days">0</span>
+                    <span class="countdown-label">Dias</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="hours">0</span>
+                    <span class="countdown-label">Horas</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="minutes">0</span>
+                    <span class="countdown-label">Minutos</span>
+                </div>
+                <div class="countdown-item">
+                    <span class="countdown-number" id="seconds">0</span>
+                    <span class="countdown-label">Segundos</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="location-section">
+            <a href="https://www.google.com/maps/search/Cantinho+do+Vovó,+Rua+Dep.+Luiz+Eduardo+Magalhães,+35,+Jardim+Limoeiro,+Camaçari-BA" target="_blank" class="location-button">
+                🗺️ Ver Localização
+            </a>
+        </div>
+
+        <div class="form-section">
+            <div class="form-title">Confirme sua presença! 💚</div>
+            <a href="https://wa.me/5571996065386?text=Olá!%20Vou%20confirmar%20minha%20presença%20no%20aniversário%20de%2015%20anos%20da%20Gabriella!" target="_blank" class="whatsapp-button">
+                💬 Confirmar pelo WhatsApp
+            </a>
+        </div>
+
+        <div class="footer">
+            🌿 Floresta Encantada 🌿<br>
+            Espero você lá! ✨💚
+        </div>
+    </div>
+
+    <script>
+        function updateCountdown() {
+            const targetDate = new Date('2026-10-10T16:30:00').getTime();
+            const now = new Date().getTime();
+            const distance = targetDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('days').textContent = days;
+            document.getElementById('hours').textContent = hours;
+            document.getElementById('minutes').textContent = minutes;
+            document.getElementById('seconds').textContent = seconds;
+
+            if (distance < 0) {
+                document.querySelector('.countdown').innerHTML = '<div class="countdown-title">🎉 O grande dia chegou! 🎉</div>';
+            }
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>
